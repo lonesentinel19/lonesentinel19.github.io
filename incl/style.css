@@ -1,0 +1,28 @@
+body {
+	font-family: century;
+	font-size: 12pt;
+	}
+.centered {
+	text-align: center;
+	}
+#container {
+	margin-top: 3%;
+	margin-right: 14%;
+	margin-left: 14%;
+	background-color: whitesmoke;
+	display: block;
+	border: 2px solid orange;	
+	border-radius: 4px;
+	}
+.large { 
+	font-size: 18pt;
+	}
+p {
+	padding-left: 6px;
+	padding-right: 6px;
+	}
+#warning {
+	background-color: yellow;
+	display: block;
+	}
+	
