@@ -1,5 +1,5 @@
 body {
-	font-family: century;
+	font-family: 'Segoe UI';
 	font-size: 12pt;
 	}
 .centered {
@@ -11,10 +11,10 @@ body {
 	margin-left: 14%;
 	background-color: whitesmoke;
 	display: block;
-	border: 2px solid orange;	
+	border: 2px solid orange;
 	border-radius: 4px;
 	}
-.large { 
+.large {
 	font-size: 18pt;
 	}
 p {
@@ -25,4 +25,8 @@ p {
 	background-color: yellow;
 	display: block;
 	}
-	
+#releaseinfo {
+	padding-left: 6px;
+	padding-right: 6px;
+	display: block;
+}

@@ -5,11 +5,14 @@
 		<link rel="stylesheet" href="incl/style.css"/>
 		<script src="incl/version.js" type="application/javascript"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="application/javascript"></script>
+		<script>
+		var promptDisabled = true; // for now
+		</script>
 	</head>
 	<body>
 		<div id="container">
 			<h2 class="centered">Lonesentinel19</h2>
-			<div id="links" class="centered"><span class="large">(</span> <a href="releases">BatchX releases</a> <> <a href="batchx">BatchX</a><span class="large">)
+			<div id="links" class="centered"><span class="large">(</span> <a href="bx-debugger">bx-debugger</a> <> <a href="batchx">BatchX</a><span class="large">)
 			</span></div>
 			<p id="warning">
 			</p>
@@ -18,6 +21,9 @@
 				the information page</a> or the <a href="http://github.com/lonesentinel19/batchx/">GitHub repository</a>.
 				<h2 class="centered">BatchX Releases</h2>
 				<span id="releaseinfo">
+					<b>v0.3.1</b>: Version 0.3.1 is almost ready for releases. It includes new error messages that will be compatible with
+					<a href="bx-debugger" title="BatchX node debugger">bx-debugger</a>, a new project I am working on. Also included will be minor
+					fixes.<br/>
 					<b>v0.3.0</b>: Version 0.3.0 will soon be out containing new features such as transpiler variables. Transpiler variables store
 					values instead of traditional Batch variables and can be called using the <code>$</code> (dollar sign). Everything is stored on the
 					C# side and can be updated and changed using the <code>tar</code> function. The <code>free</code> function will delete a transpiler
@@ -27,9 +33,11 @@
 		</div>
 	</body>
 	<footer>
-	
+
 	</footer>
 	<script>
-	window.onload = versionPrompt();
+	if ( promptDisabled !== true ) {
+		window.onload = versionPrompt();
+	}
 	</script>
 </html>
