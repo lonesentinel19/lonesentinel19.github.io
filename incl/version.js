@@ -1,4 +1,4 @@
-currentVersion = 30; /* Must be updated often */
+currentVersion = 32; /* Must be updated often */
 function versionPrompt() {
 	var yourVers = localStorage.getItem("vers");
 	if ( yourVers == null || yourVers == "null" ) {
