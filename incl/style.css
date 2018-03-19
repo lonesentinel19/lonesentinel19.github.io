@@ -17,16 +17,9 @@ body {
 .large {
 	font-size: 18pt;
 	}
-p {
-	padding-left: 6px;
-	padding-right: 6px;
-	}
-#warning {
-	background-color: yellow;
-	display: block;
-	}
-#releaseinfo {
-	padding-left: 6px;
-	padding-right: 6px;
-	display: block;
+p.text{ 
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
